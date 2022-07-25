@@ -1,0 +1,64 @@
+Size of train set:  389367 
+
+Size of test set:  70705 
+
+
++--------------------+------+
+|            category| count|
++--------------------+------+
+|     Debt collection| 84918|
+|    Virtual currency|    12|
+|         Payday loan|  1362|
+|     Money transfers|  1211|
+|Checking or savin...| 15203|
+|Payday loan title...|  5170|
+|            Mortgage| 48855|
+|        Prepaid card|  1164|
+|Credit card or pr...| 25643|
+|    Credit reporting| 25089|
+|Credit reporting ...|113268|
+|       Consumer Loan|  7580|
+|         Credit card| 14997|
+|Bank account or s...| 11876|
+|Vehicle loan or l...|  6577|
+|Money transfer vi...|  6285|
+|Other financial s...|   240|
+|        Student loan| 19917|
++--------------------+------+
+
++--------------------+-----+
+|            category|count|
++--------------------+-----+
+|     Debt collection|16484|
+|    Virtual currency|    2|
+|         Payday loan|  361|
+|     Money transfers|  266|
+|Checking or savin...| 3587|
+|Payday loan title...| 1215|
+|            Mortgage|11846|
+|        Prepaid card|  269|
+|Credit card or pr...| 5910|
+|    Credit reporting| 4224|
+|Credit reporting ...|10532|
+|       Consumer Loan| 1759|
+|         Credit card| 3557|
+|Bank account or s...| 2751|
+|Money transfer vi...| 1460|
+|Vehicle loan or l...| 1534|
+|Other financial s...|   51|
+|        Student loan| 4897|
++--------------------+-----+
+
+ Starting Training of the model without caching:
+
+--- Time Elapsed for Training without caching: 216.61 seconds ---
+
+Test set accuracy = 56.10 %
+
+ Starting Training of the model with caching:
+
+--- Time Elapsed for Training with caching: 242.72 seconds ---
+
+Test set accuracy = 56.10 %
+
+

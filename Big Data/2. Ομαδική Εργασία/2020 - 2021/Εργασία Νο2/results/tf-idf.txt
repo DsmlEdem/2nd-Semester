@@ -1,0 +1,28 @@
+Cleaning Data, removing stopwords etc.
+
+
+Creating the lexicon
+
+['credit', 'account', 'report', 'information', 'payment', 'would', 'loan', 'debt', 'bank', 'told', 'company', 'received', 'card', 'called', 'time', 'never', 'payments', 'sent', 'reporting', 'letter', 'pay', 'back', 'paid', 'get', 'also', 'mortgage', 'call', 'amount', 'said', 'due', 'made', 'one', 'accounts', 'number', 'phone', 'could', 'days', 'balance', 'money', 'late', 'collection', 'still', 'since', 'asked', 'nt', 'consumer', 'date', 'years', 'please', 'even', 'name', 'contacted', 'home', 'dispute', 'file', 'month', 'make', 'check', 'request', 'interest']
+
+Keeping words inside the lexicon only.
+
+
+Total Documents in Dataset: 491023.
+
+
+Calculating IDF
+
+
+Calculating TFIDF
+
+
+Requested Outputs
+
+('Credit reporting credit repair services or other personal consumer reports', SparseVector(60, {0: 0.1639, 1: 0.058, 2: 0.2207, 8: 0.1149, 13: 0.1, 18: 0.234, 33: 0.1268, 48: 0.1339, 51: 0.133}))
+('Debt collection', SparseVector(60, {0: 0.0559, 1: 0.0316, 2: 0.1003, 3: 0.0237, 7: 0.03, 10: 0.026, 11: 0.0737, 14: 0.0267, 15: 0.0801, 18: 0.0319, 19: 0.0323, 20: 0.0317, 22: 0.0319, 23: 0.1212, 26: 0.0675, 32: 0.0376, 33: 0.1384, 34: 0.1021, 40: 0.0769, 44: 0.236, 46: 0.1187, 47: 0.0371, 48: 0.0365, 49: 0.072}))
+('Debt collection', SparseVector(60, {7: 0.826, 49: 0.9895}))
+('Consumer Loan', SparseVector(60, {6: 1.0671, 59: 0.8292}))
+('Vehicle loan or lease', SparseVector(60, {2: 0.2759, 6: 0.4002, 47: 0.5098, 50: 0.5348}))
+
+Writing to parquet:

@@ -1,0 +1,12 @@
+== Physical Plan ==
+*(3) BroadcastHashJoin [_c0#16L], [_c0#0L], Inner, BuildLeft
+:- BroadcastExchange HashedRelationBroadcastMode(List(input[0, bigint, false]))
+:  +- *(2) Filter isnotnull(_c0#16L)
+:     +- *(2) GlobalLimit 100
+:        +- Exchange SinglePartition
+:           +- *(1) LocalLimit 100
+:              +- *(1) FileScan parquet [_c0#16L,_c1#17] Batched: true, Format: Parquet, Location: InMemoryFileIndex[hdfs://master:9000/project1/tripvendors.parquet], PartitionFilters: [], PushedFilters: [], ReadSchema: struct<_c0:bigint,_c1:int>
++- *(3) Project [_c0#0L, _c1#1, _c2#2, _c3#3, _c4#4, _c5#5, _c6#6, _c7#7]
+   +- *(3) Filter isnotnull(_c0#0L)
+      +- *(3) FileScan parquet [_c0#0L,_c1#1,_c2#2,_c3#3,_c4#4,_c5#5,_c6#6,_c7#7] Batched: true, Format: Parquet, Location: InMemoryFileIndex[hdfs://master:9000/project1/tripdata.parquet], PartitionFilters: [], PushedFilters: [IsNotNull(_c0)], ReadSchema: struct<_c0:bigint,_c1:timestamp,_c2:timestamp,_c3:double,_c4:double,_c5:double,_c6:double,_c7:dou...
+Time with choosing join type enabled is 6.9988 sec.

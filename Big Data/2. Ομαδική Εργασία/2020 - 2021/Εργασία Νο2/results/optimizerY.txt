@@ -1,0 +1,15 @@
+== Physical Plan ==
+*(6) SortMergeJoin [_c0#16L], [_c0#0L], Inner
+:- *(3) Sort [_c0#16L ASC NULLS FIRST], false, 0
+:  +- Exchange hashpartitioning(_c0#16L, 200)
+:     +- *(2) Filter isnotnull(_c0#16L)
+:        +- *(2) GlobalLimit 100
+:           +- Exchange SinglePartition
+:              +- *(1) LocalLimit 100
+:                 +- *(1) FileScan parquet [_c0#16L,_c1#17] Batched: true, Format: Parquet, Location: InMemoryFileIndex[hdfs://master:9000/project1/tripvendors.parquet], PartitionFilters: [], PushedFilters: [], ReadSchema: struct<_c0:bigint,_c1:int>
++- *(5) Sort [_c0#0L ASC NULLS FIRST], false, 0
+   +- Exchange hashpartitioning(_c0#0L, 200)
+      +- *(4) Project [_c0#0L, _c1#1, _c2#2, _c3#3, _c4#4, _c5#5, _c6#6, _c7#7]
+         +- *(4) Filter isnotnull(_c0#0L)
+            +- *(4) FileScan parquet [_c0#0L,_c1#1,_c2#2,_c3#3,_c4#4,_c5#5,_c6#6,_c7#7] Batched: true, Format: Parquet, Location: InMemoryFileIndex[hdfs://master:9000/project1/tripdata.parquet], PartitionFilters: [], PushedFilters: [IsNotNull(_c0)], ReadSchema: struct<_c0:bigint,_c1:timestamp,_c2:timestamp,_c3:double,_c4:double,_c5:double,_c6:double,_c7:dou...
+Time with choosing join type disabled is 15.5842 sec.
