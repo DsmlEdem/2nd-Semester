@@ -1,0 +1,27 @@
+*****************   PHYSICAL PLAN OF JOIN EXPERIMENT WITH OPTIMIZER JOIN SELECTION (DISABLED = False)
+== Physical Plan ==
+*(2) Project [_c0#0, _c1#1, _c2#2, _c3#3, _c4#4, _c5#5, _c6#6, _c7#7, _c1#17 AS region_name#39]
++- *(2) BroadcastHashJoin [_c4#4], [_c0#16], Inner, BuildRight
+   :- *(2) Project [_c0#0, _c1#1, _c2#2, _c3#3, _c4#4, _c5#5, _c6#6, _c7#7]
+   :  +- *(2) Filter isnotnull(_c4#4)
+   :     +- *(2) FileScan parquet [_c0#0,_c1#1,_c2#2,_c3#3,_c4#4,_c5#5,_c6#6,_c7#7] Batched: true, Format: Parquet, Location: InMemoryFileIndex[hdfs://master:9000/files/charts.parquet], PartitionFilters: [], PushedFilters: [IsNotNull(_c4)], ReadSchema: struct<_c0:string,_c1:string,_c2:string,_c3:string,_c4:string,_c5:string,_c6:string,_c7:string>
+   +- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, true]))
+      +- *(1) Project [_c0#16, _c1#17]
+         +- *(1) Filter isnotnull(_c0#16)
+            +- *(1) FileScan parquet [_c0#16,_c1#17] Batched: true, Format: Parquet, Location: InMemoryFileIndex[hdfs://master:9000/files/regions.parquet], PartitionFilters: [], PushedFilters: [IsNotNull(_c0)], ReadSchema: struct<_c0:string,_c1:string>
+
+
+*****************   PHYSICAL PLAN OF JOIN EXPERIMENT WITH OPTIMIZER JOIN SELECTION (DISABLED = True)
+== Physical Plan ==
+*(5) Project [_c0#49, _c1#50, _c2#51, _c3#52, _c4#53, _c5#54, _c6#55, _c7#56, _c1#66 AS region_name#88]
++- *(5) SortMergeJoin [_c4#53], [_c0#65], Inner
+   :- *(2) Sort [_c4#53 ASC NULLS FIRST], false, 0
+   :  +- Exchange hashpartitioning(_c4#53, 200)
+   :     +- *(1) Project [_c0#49, _c1#50, _c2#51, _c3#52, _c4#53, _c5#54, _c6#55, _c7#56]
+   :        +- *(1) Filter isnotnull(_c4#53)
+   :           +- *(1) FileScan parquet [_c0#49,_c1#50,_c2#51,_c3#52,_c4#53,_c5#54,_c6#55,_c7#56] Batched: true, Format: Parquet, Location: InMemoryFileIndex[hdfs://master:9000/files/charts.parquet], PartitionFilters: [], PushedFilters: [IsNotNull(_c4)], ReadSchema: struct<_c0:string,_c1:string,_c2:string,_c3:string,_c4:string,_c5:string,_c6:string,_c7:string>
+   +- *(4) Sort [_c0#65 ASC NULLS FIRST], false, 0
+      +- Exchange hashpartitioning(_c0#65, 200)
+         +- *(3) Project [_c0#65, _c1#66]
+            +- *(3) Filter isnotnull(_c0#65)
+               +- *(3) FileScan parquet [_c0#65,_c1#66] Batched: true, Format: Parquet, Location: InMemoryFileIndex[hdfs://master:9000/files/regions.parquet], PartitionFilters: [], PushedFilters: [IsNotNull(_c0)], ReadSchema: struct<_c0:string,_c1:string>
