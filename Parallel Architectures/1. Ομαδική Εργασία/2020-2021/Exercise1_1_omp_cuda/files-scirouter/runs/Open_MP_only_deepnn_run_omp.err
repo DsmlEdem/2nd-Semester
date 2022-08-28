@@ -1,0 +1,67 @@
+parml02@scirouter:~/ex1_omp_cuda$ cat deepnn_run_omp.err 
+Epoch 0 - Elapsed time 270.244131
+Epoch 1 - Elapsed time 512.672621
+Epoch 2 - Elapsed time 747.288166
+Epoch 3 - Elapsed time 981.905888
+Epoch 4 - Elapsed time 1216.521490
+Epoch 5 - Elapsed time 1451.144622
+Epoch 6 - Elapsed time 1685.762412
+Epoch 7 - Elapsed time 1920.375474
+Epoch 8 - Elapsed time 2154.991481
+Epoch 9 - Elapsed time 2389.604985
+Correctly predicted 11.61 of the testing set in 10 epochs
+Epoch 0 - Elapsed time 137.498880
+Epoch 1 - Elapsed time 274.903656
+Epoch 2 - Elapsed time 398.634340
+Epoch 3 - Elapsed time 518.990527
+Epoch 4 - Elapsed time 639.330416
+Epoch 5 - Elapsed time 759.692777
+Epoch 6 - Elapsed time 880.012435
+Epoch 7 - Elapsed time 1000.368511
+Epoch 8 - Elapsed time 1120.721192
+Epoch 9 - Elapsed time 1241.076047
+Correctly predicted 11.61 of the testing set in 10 epochs
+Epoch 0 - Elapsed time 74.428138
+Epoch 1 - Elapsed time 148.835490
+Epoch 2 - Elapsed time 223.198578
+Epoch 3 - Elapsed time 297.598090
+Epoch 4 - Elapsed time 367.142147
+Epoch 5 - Elapsed time 434.998567
+Epoch 6 - Elapsed time 502.854259
+Epoch 7 - Elapsed time 570.703916
+Epoch 8 - Elapsed time 638.550363
+Epoch 9 - Elapsed time 706.399480
+Correctly predicted 11.61 of the testing set in 10 epochs
+Epoch 0 - Elapsed time 58.573129
+Epoch 1 - Elapsed time 117.127650
+Epoch 2 - Elapsed time 175.674465
+Epoch 3 - Elapsed time 234.213161
+Epoch 4 - Elapsed time 292.677871
+Epoch 5 - Elapsed time 348.992790
+Epoch 6 - Elapsed time 403.803484
+Epoch 7 - Elapsed time 458.615959
+Epoch 8 - Elapsed time 513.475470
+Epoch 9 - Elapsed time 568.296956
+Correctly predicted 11.61 of the testing set in 10 epochs
+Epoch 0 - Elapsed time 33.503570
+Epoch 1 - Elapsed time 67.281649
+Epoch 2 - Elapsed time 101.012999
+Epoch 3 - Elapsed time 134.746305
+Epoch 4 - Elapsed time 168.482282
+Epoch 5 - Elapsed time 202.268890
+Epoch 6 - Elapsed time 236.081607
+Epoch 7 - Elapsed time 270.132755
+Epoch 8 - Elapsed time 304.181168
+Epoch 9 - Elapsed time 338.202565
+Correctly predicted 11.61 of the testing set in 10 epochs
+Epoch 0 - Elapsed time 48.586260
+Epoch 1 - Elapsed time 97.330338
+Epoch 2 - Elapsed time 145.938767
+Epoch 3 - Elapsed time 194.490402
+Epoch 4 - Elapsed time 243.005557
+Epoch 5 - Elapsed time 291.454506
+Epoch 6 - Elapsed time 339.826005
+Epoch 7 - Elapsed time 388.165108
+Epoch 8 - Elapsed time 436.797812
+Epoch 9 - Elapsed time 485.454365
+Correctly predicted 11.61 of the testing set in 10 epochs

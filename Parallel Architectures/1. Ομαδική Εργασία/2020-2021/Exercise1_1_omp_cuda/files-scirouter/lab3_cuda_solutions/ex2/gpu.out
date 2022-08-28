@@ -1,0 +1,24 @@
+--------------
+Addition completed!
+
+real	0m0.024s
+user	0m0.008s
+sys	0m0.008s
+--------------
+CUDA error at vector_add.cu: 76 code = 77 (cudaErrorIllegalAddress) cudaDeviceSynchronize()
+
+real	2m18.106s
+user	1m50.703s
+sys	0m24.838s
+--------------
+Addition completed in 1.595773 seconds!
+
+real	0m40.798s
+user	0m31.950s
+sys	0m7.144s
+--------------
+Addition completed in 0.001421 seconds!
+
+real	0m2.827s
+user	0m0.032s
+sys	0m0.764s

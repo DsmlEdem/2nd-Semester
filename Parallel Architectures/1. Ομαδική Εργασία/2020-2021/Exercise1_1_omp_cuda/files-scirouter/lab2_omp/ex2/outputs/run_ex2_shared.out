@@ -1,0 +1,5 @@
+x=1 for thread 0
+x=2 for thread 0
+x=1 for thread 1
+x=3 for thread 1
+x=3 serial

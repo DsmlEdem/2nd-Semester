@@ -1,0 +1,98 @@
+parml02@scirouter:~/ex1_omp_cuda$ cat deepnn_run_blas.out 
+NUM_THREADS 1
+Total time: 266.610005
+DGEMM time: 72.529056
+DGEMM_TA time: 90.951139
+DGEMM_TB time: 86.076402
+NUM_THREADS 2
+Total time: 151.375221
+DGEMM time: 37.960390
+DGEMM_TA time: 48.251056
+DGEMM_TB time: 45.791626
+NUM_THREADS 4
+Total time: 93.144344
+DGEMM time: 20.120209
+DGEMM_TA time: 26.727089
+DGEMM_TB time: 25.405505
+NUM_THREADS 6
+Total time: 82.909821
+DGEMM time: 17.773748
+DGEMM_TA time: 19.457181
+DGEMM_TB time: 22.909957
+NUM_THREADS 12
+Total time: 90.429219
+DGEMM time: 18.832622
+DGEMM_TA time: 22.251694
+DGEMM_TB time: 24.532947
+NUM_THREADS 24
+Total time: 72.580011
+DGEMM time: 11.171802
+DGEMM_TA time: 15.804974
+DGEMM_TB time: 15.235417
+parml02@scirouter:~/ex1_omp_cuda$ cat deepnn_run_blas.err
+Epoch 0 - Elapsed time 26.705807
+Epoch 1 - Elapsed time 53.393244
+Epoch 2 - Elapsed time 80.101862
+Epoch 3 - Elapsed time 106.771896
+Epoch 4 - Elapsed time 133.412519
+Epoch 5 - Elapsed time 160.070413
+Epoch 6 - Elapsed time 186.706796
+Epoch 7 - Elapsed time 213.342695
+Epoch 8 - Elapsed time 239.981436
+Epoch 9 - Elapsed time 266.609964
+Correctly predicted 1.62 of the testing set in 10 epochs
+Epoch 0 - Elapsed time 15.159905
+Epoch 1 - Elapsed time 29.958117
+Epoch 2 - Elapsed time 44.758028
+Epoch 3 - Elapsed time 59.538907
+Epoch 4 - Elapsed time 74.526052
+Epoch 5 - Elapsed time 89.962811
+Epoch 6 - Elapsed time 105.384596
+Epoch 7 - Elapsed time 120.802661
+Epoch 8 - Elapsed time 136.215408
+Epoch 9 - Elapsed time 151.375188
+Correctly predicted 1.62 of the testing set in 10 epochs
+Epoch 0 - Elapsed time 9.457586
+Epoch 1 - Elapsed time 18.749661
+Epoch 2 - Elapsed time 28.028757
+Epoch 3 - Elapsed time 37.276541
+Epoch 4 - Elapsed time 46.481913
+Epoch 5 - Elapsed time 55.697841
+Epoch 6 - Elapsed time 64.932935
+Epoch 7 - Elapsed time 74.154082
+Epoch 8 - Elapsed time 83.367851
+Epoch 9 - Elapsed time 93.144308
+Correctly predicted 1.62 of the testing set in 10 epochs
+Epoch 0 - Elapsed time 8.493282
+Epoch 1 - Elapsed time 16.983452
+Epoch 2 - Elapsed time 25.276398
+Epoch 3 - Elapsed time 33.557135
+Epoch 4 - Elapsed time 41.793944
+Epoch 5 - Elapsed time 50.021622
+Epoch 6 - Elapsed time 58.220885
+Epoch 7 - Elapsed time 66.421766
+Epoch 8 - Elapsed time 74.683447
+Epoch 9 - Elapsed time 82.909782
+Correctly predicted 1.62 of the testing set in 10 epochs
+Epoch 0 - Elapsed time 8.501679
+Epoch 1 - Elapsed time 15.943857
+Epoch 2 - Elapsed time 24.614046
+Epoch 3 - Elapsed time 34.098693
+Epoch 4 - Elapsed time 43.525790
+Epoch 5 - Elapsed time 52.938187
+Epoch 6 - Elapsed time 62.346596
+Epoch 7 - Elapsed time 71.687300
+Epoch 8 - Elapsed time 81.064706
+Epoch 9 - Elapsed time 90.429170
+Correctly predicted 1.62 of the testing set in 10 epochs
+Epoch 0 - Elapsed time 7.464832
+Epoch 1 - Elapsed time 15.172714
+Epoch 2 - Elapsed time 22.382082
+Epoch 3 - Elapsed time 29.570415
+Epoch 4 - Elapsed time 36.753309
+Epoch 5 - Elapsed time 43.947953
+Epoch 6 - Elapsed time 51.080634
+Epoch 7 - Elapsed time 58.274377
+Epoch 8 - Elapsed time 65.438071
+Epoch 9 - Elapsed time 72.579960
+Correctly predicted 1.62 of the testing set in 10 epochs

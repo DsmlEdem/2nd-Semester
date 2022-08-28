@@ -1,0 +1,4 @@
+/var/spool/torque/mom_priv/jobs/455651.localhost.SC: line 9:   764 Segmentation fault      OMP_NUM_THREADS=1 ./vecadd
+/var/spool/torque/mom_priv/jobs/455651.localhost.SC: line 10:   765 Segmentation fault      OMP_NUM_THREADS=2 ./vecadd
+/var/spool/torque/mom_priv/jobs/455651.localhost.SC: line 11:   766 Segmentation fault      OMP_NUM_THREADS=4 ./vecadd
+/var/spool/torque/mom_priv/jobs/455651.localhost.SC: line 12:   767 Segmentation fault      OMP_NUM_THREADS=8 ./vecadd

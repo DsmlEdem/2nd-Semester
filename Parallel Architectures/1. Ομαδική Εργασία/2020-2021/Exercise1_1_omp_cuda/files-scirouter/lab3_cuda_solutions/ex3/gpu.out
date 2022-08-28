@@ -1,0 +1,32 @@
+--------------
+GPU Product completed in 0.329650 seconds!
+CPU Product completed in 0.000846 seconds!
+Test PASSED!
+
+real	0m3.201s
+user	0m0.252s
+sys	0m0.808s
+--------------
+GPU Product completed in 0.004407 seconds!
+CPU Product completed in 0.000797 seconds!
+Test PASSED!
+
+real	0m2.928s
+user	0m0.036s
+sys	0m0.684s
+--------------
+GPU Product completed in 0.000170 seconds!
+CPU Product completed in 0.000801 seconds!
+Test PASSED!
+
+real	0m2.844s
+user	0m0.028s
+sys	0m0.720s
+--------------
+GPU Product completed in 0.000195 seconds!
+CPU Product completed in 0.001371 seconds!
+Test PASSED!
+
+real	0m2.919s
+user	0m0.036s
+sys	0m0.716s

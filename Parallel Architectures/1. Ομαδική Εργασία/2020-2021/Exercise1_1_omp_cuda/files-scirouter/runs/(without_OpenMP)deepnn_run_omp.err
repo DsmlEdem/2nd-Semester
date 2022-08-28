@@ -1,0 +1,11 @@
+Epoch 0 - Elapsed time 241.697881
+Epoch 1 - Elapsed time 472.669855
+Epoch 2 - Elapsed time 677.076887
+Epoch 3 - Elapsed time 881.481369
+Epoch 4 - Elapsed time 1085.897298
+Epoch 5 - Elapsed time 1290.305508
+Epoch 6 - Elapsed time 1494.848126
+Epoch 7 - Elapsed time 1699.420171
+Epoch 8 - Elapsed time 1903.912238
+Epoch 9 - Elapsed time 2109.163432
+Correctly predicted 11.61 of the testing set in 10 epochs
