@@ -10,8 +10,9 @@
 
 <ol>
   <li> Ανάκητηση και ανάλυση δεδομένων, χρονοσειρών και γεωχωρικών προϊόντων από επιχειρησιακά πληροφοριακά συστήματα και υπηρεσίες - <a href="https://github.com/DsmlEdem/2nd-Semester/tree/main/Geospatial%20Data/2021-2022/1η%20Εργαστηριακή%20Άσκηση">1η Εργαστηριακή Άσκηση</a>.</li>
-  <li> Ταξινόμηση και κατάτμηση υπερφασματικών απεικονίσεων - [3η Εργαστηριακή Άσκηση](https://github.com/DsmlEdem/2nd-Semester/tree/main/Geospatial%20Data/2021-2022/3η%20Εργαστηριακή%20Άσκηση).</li>
-  <li> Ταξινόμηση βίντεο με αρχιτεκτονικές RNN & Transformer - [4η Εργαστηριακή Άσκηση](https://github.com/DsmlEdem/2nd-Semester/tree/main/Geospatial%20Data/2021-2022/4η%20Εργαστηριακή%20Άσκηση).</li>
-  <li> Ανίχνευση αντικειμένων - [5η Εργαστηριακή Άσκηση](https://github.com/DsmlEdem/2nd-Semester/tree/main/Geospatial%20Data/2021-2022/5η%20Εργαστηριακή%20Άσκηση). </li>
-  <li> Εφαρμογές αλγορίθμων βαθιάς μάθησης στη παρατήρηση Γης - [6η Εργαστηριακή Άσκηση](https://github.com/DsmlEdem/2nd-Semester/tree/main/Geospatial%20Data/2021-2022/6η%20Εργαστηριακή%20Άσκηση).</li>
+  <li> Γεωχωρικές υπηρεσίες και διαδικτυακές εφαρμογές - <a href = "https://github.com/DsmlEdem/2nd-Semester/tree/main/Geospatial%20Data/2021-2022/2η%20Εργαστηριακή%20Άσκηση"> 2η Εργαστηριακή Άσκηση </a>.</li>
+  <li> Ταξινόμηση και κατάτμηση υπερφασματικών απεικονίσεων - <a href = "https://github.com/DsmlEdem/2nd-Semester/tree/main/Geospatial%20Data/2021-2022/3η%20Εργαστηριακή%20Άσκηση">3η Εργαστηριακή Άσκηση</a>.</li>
+  <li> Ταξινόμηση βίντεο με αρχιτεκτονικές RNN & Transformer -<a href="https://github.com/DsmlEdem/2nd-Semester/tree/main/Geospatial%20Data/2021-2022/4η%20Εργαστηριακή%20Άσκηση"> 4η Εργαστηριακή Άσκηση </a>.</li>
+  <li> Ανίχνευση αντικειμένων - <a href = "https://github.com/DsmlEdem/2nd-Semester/tree/main/Geospatial%20Data/2021-2022/5η%20Εργαστηριακή%20Άσκηση"> 5η Εργαστηριακή Άσκηση</a>.</li>
+  <li> Εφαρμογές αλγορίθμων βαθιάς μάθησης στη παρατήρηση Γης - <a href = "https://github.com/DsmlEdem/2nd-Semester/tree/main/Geospatial%20Data/2021-2022/6η%20Εργαστηριακή%20Άσκηση"> 6η Εργαστηριακή Άσκηση</a>.</li>
 </ol>
