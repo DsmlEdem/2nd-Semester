@@ -1,0 +1,27 @@
+awk 'BEGIN{FS=","
+		last_id=""
+	    	last_item=""
+	    	termekszam=0}
+	{	
+		if ($1!="")
+		{
+			if (kodtomb[$2]<1)
+			{
+				termekszam++
+				kodtomb[$2]=termekszam
+			}
+			print $1","kodtomb[$2]
+		}
+	}' $1
+
+awk 'BEGIN{FS=","
+		termekszam=0
+		}
+		{
+			if ($1!="" && kodtomb[$2]<1)
+	 		{
+				termekszam++
+				kodtomb[$2]=termekszam
+	 		}
+		}
+     	  END {for (oldal in kodtomb) print kodtomb[oldal]":"oldal}' $1>./code_table.txt

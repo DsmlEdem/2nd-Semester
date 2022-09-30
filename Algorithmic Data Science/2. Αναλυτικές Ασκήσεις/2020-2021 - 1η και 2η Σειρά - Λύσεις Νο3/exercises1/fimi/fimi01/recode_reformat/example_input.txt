@@ -1,0 +1,12 @@
+5,butter
+6,butter
+6,cheese
+6,milk
+1,milk
+1,bread
+2,cheese
+2,cacao
+4,milk
+4,bread
+4,cacao
+

@@ -1,0 +1,10 @@
+class_names:
+- battery
+- dice
+- toycar
+- candle
+- highlighter
+- spoon
+lr: 0.0001
+num_classes: 7
+phase: 1

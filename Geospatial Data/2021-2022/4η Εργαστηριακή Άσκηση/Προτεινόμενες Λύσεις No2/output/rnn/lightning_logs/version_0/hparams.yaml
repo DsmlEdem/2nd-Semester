@@ -1,0 +1,6 @@
+dropout: 0.1
+input_size: 512
+lr: 0.001
+num_classes: 5
+num_rnn_layers: 2
+rnn_size: 512

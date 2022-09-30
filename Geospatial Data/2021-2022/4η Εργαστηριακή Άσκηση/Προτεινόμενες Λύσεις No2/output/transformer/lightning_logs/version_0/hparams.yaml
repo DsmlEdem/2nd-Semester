@@ -1,0 +1,8 @@
+d_model: 512
+dim_feedforward: 2048
+dropout: 0.1
+lr: 0.001
+max_len: 1000
+nhead: 8
+num_classes: 5
+num_layers: 2

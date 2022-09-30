@@ -1,0 +1,187 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{amsthm}
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+% To make custom snippets, Ctrl+shift+P --> Preferences: Configure User Snippets -> latex (or latex.json)
+\DeclareMathOperator{\E}{\mathrm{E}}
+\DeclareMathOperator{\V}{\mathrm{V}}
+\DeclareMathOperator{\Var}{\mathrm{Var}}
+\DeclareMathOperator{\Cov}{\mathrm{Cov}}
+
+\newtheorem{exercise}{Exercise}[section]
+
+\title{Data Driven Models for Engineering Problems\\Exercise 0}
+\author{Konstantinos Papadakis\\DSML 03400149\\k.i.papadakis@gmail.com}
+\date{March 2022}
+
+
+\begin{document}
+
+\maketitle
+
+
+\section{Exercises}
+
+Let \(X(t_n)\) be a random walk where each step is either 1 or -1 with equal probability.
+
+% EXERCISE A
+\begin{exercise}
+    \( \E[X(t_n)] = 0 \)
+\end{exercise}
+\begin{proof}
+    Let \( \xi(t_1), \dots , \xi(t_n) \) be the steps up to \(t_n\).
+    By assumption, these are independent and take values
+    in \(\{-1, 1\}\) with equal probability \(\frac{1}{2}\).
+    \begin{equation*}
+        \E[\xi_n] = (-1) \cdot P(\xi_n = -1) + 1 \cdot P(\xi_n = 1) = (-1) \cdot \frac{1}{2} + 1 \cdot \frac{1}{2} = 0
+    \end{equation*}
+
+    We have \(X(t_n) = \xi(t_1) + \dots + \xi(t_n) \), therefore
+    \begin{equation*}
+        \E[X(t_n)] = \E[\xi(t_1)] + \dots + \E[\xi(t_n)] = 0 + \dots + 0 = 0
+    \end{equation*}
+\end{proof}
+
+
+% EXERCISE B
+\begin{exercise}
+    \( \V[X(t_n)] = n \)
+\end{exercise}
+\begin{proof}
+    \begin{equation*}
+        \begin{split}
+            \V[\xi(t_n)] &= \E[\xi(t_n)^2] - \E[\xi(t_n)]^2 = \E[\xi(t_n)^2]\\
+            &= (-1)^2 \cdot P(\xi_n = -1) + 1^2 \cdot P(\xi_n = 1)\\
+            &= 1 \cdot \frac{1}{2} + 1 \cdot \frac{1}{2} = 1
+        \end{split}
+    \end{equation*}
+    Because \(\xi(t_n)\) are independent, we have that
+    \begin{equation*}
+        \V[X(t_n)] = \V[\xi(t_1)] + \dots + \V[\xi(t_n)] = 1 + \dots + 1 = n
+    \end{equation*}
+\end{proof}
+
+
+% EXERCISE C
+\begin{exercise}
+    The process is not ergodic.
+\end{exercise}
+\begin{proof}
+    Let \(\hat\mu_X := \frac{1}{T} \sum_{i=0}^{T} X(t_n)\) be the time average estimate.
+    We will show that this random variable does not converge
+    to the (constant) ensemble average \(\mu_x = 0\).
+
+    \begin{equation*}
+        \E[\hat\mu_x] = \E\left[\frac{1}{T}\sum_{i=0}^{T} X(t_n)\right] = \frac{1}{T}\sum_{i=0}^{T} \E[X(t_n)] = 0
+    \end{equation*}
+
+    This shows that the time average estimate's mean is equal to \(\mu_x\), but as we shall prove,
+    it does not converge to a \emph{constant}.
+
+    \begin{equation*}
+        \begin{split}
+            \V[\mu_X] &= \E[\mu_x^2] - \E[\mu_x]^2 = \E[\mu_x^2]\\
+            &= \frac{1}{T^2} \E\left[ \left( \sum_{i=1}^T X(t_i )\right)^2 \right]\\
+            &= \frac{1}{T^2} \E\left[ \sum_{i=1}^T \sum_{j=1}^T X(t_i) X(t_j) \right]\\
+            &= \frac{1}{T^2} \sum_{i=1}^T \sum_{j=1}^T \E[X(t_i) X(t_j)]\\
+            &= \frac{1}{T^2} \sum_{i=1}^T \sum_{j=1}^T \Cov[X(t_i), X(t_j)] + \E[X(t_i)] \E[X(t_j)]\\
+            &= \frac{1}{T^2} \sum_{i=1}^T \sum_{j=1}^T \Cov[X(t_i), X(t_j)]\\
+        \end{split}
+    \end{equation*}
+
+    Since \(\xi(t_i)\) are independent and with variance 1, we have that
+
+    \begin{equation*}
+        \begin{split}
+            \Cov[X(t_i), X(t_j)] &= \Cov[\sum_{r=1}^i \xi(t_r), \sum_{s=1}^j X(t_s)]\\
+            &= \sum_{r = s} \Cov[\xi(t_r), \xi(t_s)] + \sum_{r \neq s} \Cov[\xi(t_r), \xi(t_s)]\\
+            &= \sum_{k = 1}^{\min\{i, j\}} \Cov[\xi(t_k), \xi(t_k)]\\
+            &= \sum_{k = 1}^{\min\{i, j\}} 1\\
+            &= \min\{i, j\}
+        \end{split}
+    \end{equation*}
+
+    Therefore,
+
+    \begin{equation*}
+        \begin{split}
+            \V[\mu_X] &= \frac{1}{T^2} \sum_{i=1}^T \sum_{j=1}^T \min\{i, j\}
+        \end{split}
+    \end{equation*}
+    
+    We now show that \(\sum_{i=1}^T \sum_{j=1}^T \min\{i, j\} = \sum_{k=1}^T k^2\).
+    Evaluate the summands of the left hand side in the following table:
+
+    \begin{equation*}
+        \begin{matrix}
+            1&1&1&1&\ldots&1\\
+            1&2&2&2&\ldots&2\\
+            1&2&3&3&\ldots&3\\
+            1&2&3&4&\ldots&4\\
+            \vdots&\vdots&\vdots&\vdots&\ddots&\vdots\\
+            1&2&3&4&\ldots&T
+        \end{matrix}
+    \end{equation*}
+
+    We can view this table as stacked 3-dimensional unit cubes.
+    The number at position \((i, j)\) represents the number of cubes that are stacked vertically at this position.
+    At height 1 we have \(T^2\) cubes, at height 2 we have \((T-1)^2\) cubes, \(\dots\), at height \(T\) we have \(1^2\) cubes.
+    This is proves the equality visually.
+
+    We now have
+
+    \begin{equation*}
+        \begin{split}
+            \V[\mu_X] &= \frac{1}{T^2} \sum_{i=1}^T \sum_{j=1}^T \min\{i, j\}\\
+                      &= \frac{1}{T^2} \sum_{k=1}^T k^2\\
+                      &= \frac{1}{T^2} \frac{T (T+1) (2T+1)}{6}\\
+                      &= \frac{1}{6} (1 + \frac{1}{T}) (2T + 1) \xrightarrow{T \to \infty} \infty
+        \end{split}
+    \end{equation*}
+
+    where we used the well-known formula for the sum of squares of the first n natural numbers.
+
+    This shows that the variance of \(\mu_X\) does not become 0,
+    and thus \(\mu_X\) doesn't converge to a constant. 
+\end{proof}
+
+
+\section{Code}
+
+We can also write Matlab code that attempts to estimate the values proved above.
+
+\lstinputlisting[language=Matlab, caption={Matlab simulation}, label={lst:matlab-simulation}]{exercise_0.m}
+
+
+\end{document}

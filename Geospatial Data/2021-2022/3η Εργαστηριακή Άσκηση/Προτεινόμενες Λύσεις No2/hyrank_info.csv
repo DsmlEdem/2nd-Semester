@@ -1,0 +1,16 @@
+id,color,name
+0,#000000,Unknown
+1,#FB0206,Dense Urban Fabric
+2,#C63473,Mineral Extraction Sites
+3,#EDE924,Non Irrigated Arable Land
+4,#F57D27,Fruit Trees
+5,#F3B243,Olive Groves
+6,#01AC32,Broad-leaved Forest
+7,#004916,Coniferous Forest
+8,#571F6E,Mixed Forest
+9,#757A31,Dense Sclerophyllous Vegetation
+10,#BEB044,Sparce Sclerophyllous Vegetation
+11,#D4EC63,Sparce Vegetated Areas
+12,#ABB7BC,Rocks and Sand
+13,#284CD5,Water
+14,#60E5FE,Coastal Water

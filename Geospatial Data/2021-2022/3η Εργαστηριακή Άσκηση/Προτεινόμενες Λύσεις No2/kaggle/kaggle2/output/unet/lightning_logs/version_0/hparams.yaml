@@ -1,0 +1,4 @@
+ignore_index: -1
+lr: 0.001
+n_channels: 176
+num_classes: 14
