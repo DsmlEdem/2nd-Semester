@@ -1,0 +1,12 @@
+sort -T /tmp -u $1>/tmp/temp_sorted.txt
+awk 'BEGIN{ FS=","
+	last_id=""
+	    last_basket=""}
+	{if (last_id==$1) last_basket=last_basket "," $2
+	 else {	if (last_basket!="") {print last_basket}
+	 	last_id=$1
+		last_basket=$2
+	      }
+	}
+     END {print last_basket}' /tmp/temp_sorted.txt
+     rm /tmp/temp_sorted.txt

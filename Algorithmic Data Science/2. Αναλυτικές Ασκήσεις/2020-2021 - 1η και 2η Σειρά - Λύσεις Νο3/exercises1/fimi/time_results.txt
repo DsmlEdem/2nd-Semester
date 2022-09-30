@@ -1,0 +1,43 @@
+RUNNING TIMES (USER + SYSTEM)
+kosarak.dat database
+
+minsupp: 0.9
+.51
+
+minsupp: 0.8
+.50
+
+minsupp: 0.7
+.49
+
+minsupp: 0.6
+.50
+--------------------------
+accidents.dat database
+
+minsupp: 0.9
+.87
+
+minsupp: 0.8
+.93
+
+minsupp: 0.7
+1.00
+
+minsupp: 0.6
+1.35
+--------------------------
+pumsb.dat database
+
+minsupp: 0.9
+.32
+
+minsupp: 0.8
+1.35
+
+minsupp: 0.7
+128.26
+
+minsupp: 0.6
+1668.30
+--------------------------

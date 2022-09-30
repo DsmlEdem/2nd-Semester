@@ -1,0 +1,11 @@
+echo Coding the items. Please wait.
+./code_basket $1>coded_baskets.txt
+echo Converting the file to market-basket model. Please wait.
+./convert_baskets coded_baskets.txt>converted_baskets.txt
+rm coded_baskets.txt
+../apriori converted_baskets.txt coded_output.txt $3 $4
+rm converted_baskets.txt
+echo Decoding the items.
+cat ./coded_output.txt|./decode_items code_table.txt >$2
+rm coded_output.txt
+rm code_table.txt

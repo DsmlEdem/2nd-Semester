@@ -1,0 +1,847 @@
+********************************************************************
+***                                                              ***
+***             Trie/Trie-hash based APRIORI algorithm           ***
+***                       version: 1.4.03                        ***
+***                                                              ***
+***       Implemented by: Ferenc Bodon (bodon@mit.bme.hu)        ***
+***                                                              ***
+********************************************************************
+
+
+                Finding frequent itemsets...
+
+Number of frequent 0-itemsets is 1
+
+Determining the support of the 1-itemset candidates!
+Deleting infrequent items!
+Number of frequent 1-itemsets is 0
+The memory need is: 48 Kbyte + 4 byte
+
+Genarating 2-itemset candidates!
+The memory need is: 48 Kbyte + 4 byte
+
+Mining is done!
+
+********************************************************************
+***                                                              ***
+***             Trie/Trie-hash based APRIORI algorithm           ***
+***                       version: 1.4.03                        ***
+***                                                              ***
+***       Implemented by: Ferenc Bodon (bodon@mit.bme.hu)        ***
+***                                                              ***
+********************************************************************
+
+
+                Finding frequent itemsets...
+
+Number of frequent 0-itemsets is 1
+
+Determining the support of the 1-itemset candidates!
+Deleting infrequent items!
+Number of frequent 1-itemsets is 0
+The memory need is: 48 Kbyte + 4 byte
+
+Genarating 2-itemset candidates!
+The memory need is: 48 Kbyte + 4 byte
+
+Mining is done!
+
+********************************************************************
+***                                                              ***
+***             Trie/Trie-hash based APRIORI algorithm           ***
+***                       version: 1.4.03                        ***
+***                                                              ***
+***       Implemented by: Ferenc Bodon (bodon@mit.bme.hu)        ***
+***                                                              ***
+********************************************************************
+
+
+                Finding frequent itemsets...
+
+Number of frequent 0-itemsets is 1
+
+Determining the support of the 1-itemset candidates!
+Deleting infrequent items!
+Number of frequent 1-itemsets is 0
+The memory need is: 48 Kbyte + 4 byte
+
+Genarating 2-itemset candidates!
+The memory need is: 48 Kbyte + 4 byte
+
+Mining is done!
+
+********************************************************************
+***                                                              ***
+***             Trie/Trie-hash based APRIORI algorithm           ***
+***                       version: 1.4.03                        ***
+***                                                              ***
+***       Implemented by: Ferenc Bodon (bodon@mit.bme.hu)        ***
+***                                                              ***
+********************************************************************
+
+
+                Finding frequent itemsets...
+
+Number of frequent 0-itemsets is 1
+
+Determining the support of the 1-itemset candidates!
+Deleting infrequent items!
+Number of frequent 1-itemsets is 1
+The memory need is: 48 Kbyte + 10 byte
+
+Genarating 2-itemset candidates!
+The memory need is: 48 Kbyte + 18 byte
+
+Mining is done!
+
+********************************************************************
+***                                                              ***
+***             Trie/Trie-hash based APRIORI algorithm           ***
+***                       version: 1.4.03                        ***
+***                                                              ***
+***       Implemented by: Ferenc Bodon (bodon@mit.bme.hu)        ***
+***                                                              ***
+********************************************************************
+
+
+                Finding frequent itemsets...
+
+Number of frequent 0-itemsets is 1
+
+Determining the support of the 1-itemset candidates!
+Deleting infrequent items!
+Number of frequent 1-itemsets is 5
+The memory need is: 816 byte
+
+Genarating 2-itemset candidates!
+The memory need is: 936 byte
+Determining the support of the 2-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 2-itemsets is 10
+The memory need is: 870 byte
+
+Genarating 3-itemset candidates!
+The memory need is: 954 byte
+Determining the support of the 3-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 3-itemsets is 10
+The memory need is: 954 byte
+
+Genarating 4-itemset candidates!
+The memory need is: 964 byte
+Determining the support of the 4-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 4-itemsets is 5
+The memory need is: 964 byte
+
+Genarating 5-itemset candidates!
+The memory need is: 966 byte
+Determining the support of the 5-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 5-itemsets is 1
+The memory need is: 966 byte
+
+Genarating 6-itemset candidates!
+The memory need is: 966 byte
+
+Mining is done!
+
+********************************************************************
+***                                                              ***
+***             Trie/Trie-hash based APRIORI algorithm           ***
+***                       version: 1.4.03                        ***
+***                                                              ***
+***       Implemented by: Ferenc Bodon (bodon@mit.bme.hu)        ***
+***                                                              ***
+********************************************************************
+
+
+                Finding frequent itemsets...
+
+Number of frequent 0-itemsets is 1
+
+Determining the support of the 1-itemset candidates!
+Deleting infrequent items!
+Number of frequent 1-itemsets is 11
+The memory need is: 864 byte
+
+Genarating 2-itemset candidates!
+The memory need is: 1 Kbyte + 368 byte
+Determining the support of the 2-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 2-itemsets is 35
+The memory need is: 1 Kbyte + 130 byte
+
+Genarating 3-itemset candidates!
+The memory need is: 1 Kbyte + 494 byte
+Determining the support of the 3-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 3-itemsets is 50
+The memory need is: 1 Kbyte + 494 byte
+
+Genarating 4-itemset candidates!
+The memory need is: 2 Kbyte + 56 byte
+Determining the support of the 4-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 4-itemsets is 37
+The memory need is: 2 Kbyte + 56 byte
+
+Genarating 5-itemset candidates!
+The memory need is: 2 Kbyte + 84 byte
+Determining the support of the 5-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 5-itemsets is 14
+The memory need is: 2 Kbyte + 84 byte
+
+Genarating 6-itemset candidates!
+The memory need is: 2 Kbyte + 88 byte
+Determining the support of the 6-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 6-itemsets is 2
+The memory need is: 2 Kbyte + 88 byte
+
+Genarating 7-itemset candidates!
+The memory need is: 2 Kbyte + 88 byte
+
+Mining is done!
+
+********************************************************************
+***                                                              ***
+***             Trie/Trie-hash based APRIORI algorithm           ***
+***                       version: 1.4.03                        ***
+***                                                              ***
+***       Implemented by: Ferenc Bodon (bodon@mit.bme.hu)        ***
+***                                                              ***
+********************************************************************
+
+
+                Finding frequent itemsets...
+
+Number of frequent 0-itemsets is 1
+
+Determining the support of the 1-itemset candidates!
+Deleting infrequent items!
+Number of frequent 1-itemsets is 16
+The memory need is: 928 byte
+
+Genarating 2-itemset candidates!
+The memory need is: 1 Kbyte + 992 byte
+Determining the support of the 2-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 2-itemsets is 73
+The memory need is: 1 Kbyte + 478 byte
+
+Genarating 3-itemset candidates!
+The memory need is: 3 Kbyte + 304 byte
+Determining the support of the 3-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 3-itemsets is 152
+The memory need is: 3 Kbyte + 304 byte
+
+Genarating 4-itemset candidates!
+The memory need is: 3 Kbyte + 640 byte
+Determining the support of the 4-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 4-itemsets is 164
+The memory need is: 3 Kbyte + 640 byte
+
+Genarating 5-itemset candidates!
+The memory need is: 3 Kbyte + 828 byte
+Determining the support of the 5-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 5-itemsets is 94
+The memory need is: 3 Kbyte + 828 byte
+
+Genarating 6-itemset candidates!
+The memory need is: 5 Kbyte + 882 byte
+Determining the support of the 6-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 6-itemsets is 27
+The memory need is: 5 Kbyte + 882 byte
+
+Genarating 7-itemset candidates!
+The memory need is: 5 Kbyte + 888 byte
+Determining the support of the 7-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 7-itemsets is 3
+The memory need is: 5 Kbyte + 888 byte
+
+Genarating 8-itemset candidates!
+The memory need is: 5 Kbyte + 888 byte
+
+Mining is done!
+
+********************************************************************
+***                                                              ***
+***             Trie/Trie-hash based APRIORI algorithm           ***
+***                       version: 1.4.03                        ***
+***                                                              ***
+***       Implemented by: Ferenc Bodon (bodon@mit.bme.hu)        ***
+***                                                              ***
+********************************************************************
+
+
+                Finding frequent itemsets...
+
+Number of frequent 0-itemsets is 1
+
+Determining the support of the 1-itemset candidates!
+Deleting infrequent items!
+Number of frequent 1-itemsets is 21
+The memory need is: 960 byte
+
+Genarating 2-itemset candidates!
+The memory need is: 2 Kbyte + 760 byte
+Determining the support of the 2-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 2-itemsets is 133
+The memory need is: 2 Kbyte + 182 byte
+
+Genarating 3-itemset candidates!
+The memory need is: 6 Kbyte + 118 byte
+Determining the support of the 3-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 3-itemsets is 396
+The memory need is: 6 Kbyte + 118 byte
+
+Genarating 4-itemset candidates!
+The memory need is: 12 Kbyte + 160 byte
+Determining the support of the 4-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 4-itemsets is 627
+The memory need is: 12 Kbyte + 160 byte
+
+Genarating 5-itemset candidates!
+The memory need is: 14 Kbyte + 780 byte
+Determining the support of the 5-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 5-itemsets is 558
+The memory need is: 14 Kbyte + 780 byte
+
+Genarating 6-itemset candidates!
+The memory need is: 15 Kbyte + 300 byte
+Determining the support of the 6-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 6-itemsets is 271
+The memory need is: 15 Kbyte + 300 byte
+
+Genarating 7-itemset candidates!
+The memory need is: 23 Kbyte + 426 byte
+Determining the support of the 7-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 7-itemsets is 63
+The memory need is: 23 Kbyte + 426 byte
+
+Genarating 8-itemset candidates!
+The memory need is: 23 Kbyte + 436 byte
+Determining the support of the 8-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 8-itemsets is 5
+The memory need is: 23 Kbyte + 436 byte
+
+Genarating 9-itemset candidates!
+The memory need is: 23 Kbyte + 436 byte
+
+Mining is done!
+
+********************************************************************
+***                                                              ***
+***             Trie/Trie-hash based APRIORI algorithm           ***
+***                       version: 1.4.03                        ***
+***                                                              ***
+***       Implemented by: Ferenc Bodon (bodon@mit.bme.hu)        ***
+***                                                              ***
+********************************************************************
+
+
+                Finding frequent itemsets...
+
+Number of frequent 0-itemsets is 1
+
+Determining the support of the 1-itemset candidates!
+Deleting infrequent items!
+Number of frequent 1-itemsets is 20
+The memory need is: 9 Kbyte + 114 byte
+
+Genarating 2-itemset candidates!
+The memory need is: 10 Kbyte + 770 byte
+Determining the support of the 2-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 2-itemsets is 140
+The memory need is: 10 Kbyte + 360 byte
+
+Genarating 3-itemset candidates!
+The memory need is: 14 Kbyte + 462 byte
+Determining the support of the 3-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 3-itemsets is 459
+The memory need is: 14 Kbyte + 462 byte
+
+Genarating 4-itemset candidates!
+The memory need is: 20 Kbyte + 442 byte
+Determining the support of the 4-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 4-itemsets is 786
+The memory need is: 20 Kbyte + 442 byte
+
+Genarating 5-itemset candidates!
+The memory need is: 30 Kbyte + 184 byte
+Determining the support of the 5-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 5-itemsets is 746
+The memory need is: 30 Kbyte + 184 byte
+
+Genarating 6-itemset candidates!
+The memory need is: 31 Kbyte + 0 byte
+Determining the support of the 6-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 6-itemsets is 364
+The memory need is: 31 Kbyte + 0 byte
+
+Genarating 7-itemset candidates!
+The memory need is: 31 Kbyte + 190 byte
+Determining the support of the 7-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 7-itemsets is 85
+The memory need is: 31 Kbyte + 190 byte
+
+Genarating 8-itemset candidates!
+The memory need is: 31 Kbyte + 204 byte
+Determining the support of the 8-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 8-itemsets is 7
+The memory need is: 31 Kbyte + 204 byte
+
+Genarating 9-itemset candidates!
+The memory need is: 31 Kbyte + 204 byte
+
+Mining is done!
+
+********************************************************************
+***                                                              ***
+***             Trie/Trie-hash based APRIORI algorithm           ***
+***                       version: 1.4.03                        ***
+***                                                              ***
+***       Implemented by: Ferenc Bodon (bodon@mit.bme.hu)        ***
+***                                                              ***
+********************************************************************
+
+
+                Finding frequent itemsets...
+
+Number of frequent 0-itemsets is 1
+
+Determining the support of the 1-itemset candidates!
+Deleting infrequent items!
+Number of frequent 1-itemsets is 25
+The memory need is: 9 Kbyte + 114 byte
+
+Genarating 2-itemset candidates!
+The memory need is: 11 Kbyte + 666 byte
+Determining the support of the 2-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 2-itemsets is 276
+The memory need is: 11 Kbyte + 776 byte
+
+Genarating 3-itemset candidates!
+The memory need is: 29 Kbyte + 364 byte
+Determining the support of the 3-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 3-itemsets is 1760
+The memory need is: 29 Kbyte + 364 byte
+
+Genarating 4-itemset candidates!
+The memory need is: 101 Kbyte + 56 byte
+Determining the support of the 4-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 4-itemsets is 6999
+The memory need is: 101 Kbyte + 56 byte
+
+Genarating 5-itemset candidates!
+The memory need is: 221 Kbyte + 884 byte
+Determining the support of the 5-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 5-itemsets is 18215
+The memory need is: 221 Kbyte + 884 byte
+
+Genarating 6-itemset candidates!
+The memory need is: 452 Kbyte + 774 byte
+Determining the support of the 6-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 6-itemsets is 31532
+The memory need is: 452 Kbyte + 774 byte
+
+Genarating 7-itemset candidates!
+The memory need is: 856 Kbyte + 422 byte
+Determining the support of the 7-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 7-itemsets is 36382
+The memory need is: 856 Kbyte + 422 byte
+
+Genarating 8-itemset candidates!
+The memory need is: 913 Kbyte + 374 byte
+Determining the support of the 8-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 8-itemsets is 27758
+The memory need is: 913 Kbyte + 374 byte
+
+Genarating 9-itemset candidates!
+The memory need is: 1 Mbyte + 429 Kbyte + 68 byte
+Determining the support of the 9-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 9-itemsets is 13786
+The memory need is: 1 Mbyte + 429 Kbyte + 68 byte
+
+Genarating 10-itemset candidates!
+The memory need is: 1 Mbyte + 437 Kbyte + 718 byte
+Determining the support of the 10-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 10-itemsets is 4380
+The memory need is: 1 Mbyte + 437 Kbyte + 718 byte
+
+Genarating 11-itemset candidates!
+The memory need is: 1 Mbyte + 439 Kbyte + 468 byte
+Determining the support of the 11-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 11-itemsets is 895
+The memory need is: 1 Mbyte + 439 Kbyte + 468 byte
+
+Genarating 12-itemset candidates!
+The memory need is: 1 Mbyte + 439 Kbyte + 730 byte
+Determining the support of the 12-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 12-itemsets is 131
+The memory need is: 1 Mbyte + 439 Kbyte + 730 byte
+
+Genarating 13-itemset candidates!
+The memory need is: 1 Mbyte + 439 Kbyte + 762 byte
+Determining the support of the 13-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 13-itemsets is 16
+The memory need is: 1 Mbyte + 439 Kbyte + 762 byte
+
+Genarating 14-itemset candidates!
+The memory need is: 1 Mbyte + 439 Kbyte + 764 byte
+Determining the support of the 14-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 14-itemsets is 1
+The memory need is: 1 Mbyte + 439 Kbyte + 764 byte
+
+Genarating 15-itemset candidates!
+The memory need is: 1 Mbyte + 439 Kbyte + 764 byte
+
+Mining is done!
+
+********************************************************************
+***                                                              ***
+***             Trie/Trie-hash based APRIORI algorithm           ***
+***                       version: 1.4.03                        ***
+***                                                              ***
+***       Implemented by: Ferenc Bodon (bodon@mit.bme.hu)        ***
+***                                                              ***
+********************************************************************
+
+
+                Finding frequent itemsets...
+
+Number of frequent 0-itemsets is 1
+
+Determining the support of the 1-itemset candidates!
+Deleting infrequent items!
+Number of frequent 1-itemsets is 34
+The memory need is: 9 Kbyte + 306 byte
+
+Genarating 2-itemset candidates!
+The memory need is: 13 Kbyte + 970 byte
+Determining the support of the 2-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 2-itemsets is 441
+The memory need is: 12 Kbyte + 200 byte
+
+Genarating 3-itemset candidates!
+The memory need is: 32 Kbyte + 792 byte
+Determining the support of the 3-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 3-itemsets is 2951
+The memory need is: 32 Kbyte + 792 byte
+
+Genarating 4-itemset candidates!
+The memory need is: 181 Kbyte + 208 byte
+Determining the support of the 4-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 4-itemsets is 13462
+The memory need is: 181 Kbyte + 208 byte
+
+Genarating 5-itemset candidates!
+The memory need is: 714 Kbyte + 220 byte
+Determining the support of the 5-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 5-itemsets is 47691
+The memory need is: 714 Kbyte + 220 byte
+
+Genarating 6-itemset candidates!
+The memory need is: 1 Mbyte + 679 Kbyte + 382 byte
+Determining the support of the 6-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 6-itemsets is 131945
+The memory need is: 1 Mbyte + 679 Kbyte + 382 byte
+
+Genarating 7-itemset candidates!
+The memory need is: 3 Mbyte + 498 Kbyte + 146 byte
+Determining the support of the 7-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 7-itemsets is 279661
+The memory need is: 3 Mbyte + 498 Kbyte + 146 byte
+
+Genarating 8-itemset candidates!
+The memory need is: 6 Mbyte + 942 Kbyte + 406 byte
+Determining the support of the 8-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 8-itemsets is 451931
+The memory need is: 6 Mbyte + 942 Kbyte + 406 byte
+
+Genarating 9-itemset candidates!
+The memory need is: 13 Mbyte + 118 Kbyte + 294 byte
+Determining the support of the 9-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 9-itemsets is 557216
+The memory need is: 13 Mbyte + 118 Kbyte + 294 byte
+
+Genarating 10-itemset candidates!
+The memory need is: 14 Mbyte + 130 Kbyte + 728 byte
+Determining the support of the 10-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 10-itemsets is 523996
+The memory need is: 14 Mbyte + 130 Kbyte + 728 byte
+
+Genarating 11-itemset candidates!
+The memory need is: 25 Mbyte + 81 Kbyte + 330 byte
+Determining the support of the 11-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 11-itemsets is 374743
+The memory need is: 25 Mbyte + 81 Kbyte + 330 byte
+
+Genarating 12-itemset candidates!
+The memory need is: 25 Mbyte + 478 Kbyte + 430 byte
+Determining the support of the 12-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 12-itemsets is 202388
+The memory need is: 25 Mbyte + 478 Kbyte + 430 byte
+
+Genarating 13-itemset candidates!
+The memory need is: 25 Mbyte + 638 Kbyte + 48 byte
+Determining the support of the 13-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 13-itemsets is 81619
+The memory need is: 25 Mbyte + 638 Kbyte + 48 byte
+
+Genarating 14-itemset candidates!
+The memory need is: 25 Mbyte + 685 Kbyte + 358 byte
+Determining the support of the 14-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 14-itemsets is 24203
+The memory need is: 25 Mbyte + 685 Kbyte + 358 byte
+
+Genarating 15-itemset candidates!
+The memory need is: 25 Mbyte + 695 Kbyte + 430 byte
+Determining the support of the 15-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 15-itemsets is 5156
+The memory need is: 25 Mbyte + 695 Kbyte + 430 byte
+
+Genarating 16-itemset candidates!
+The memory need is: 25 Mbyte + 696 Kbyte + 916 byte
+Determining the support of the 16-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 16-itemsets is 755
+The memory need is: 25 Mbyte + 696 Kbyte + 916 byte
+
+Genarating 17-itemset candidates!
+The memory need is: 25 Mbyte + 697 Kbyte + 30 byte
+Determining the support of the 17-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 17-itemsets is 69
+The memory need is: 25 Mbyte + 697 Kbyte + 30 byte
+
+Genarating 18-itemset candidates!
+The memory need is: 25 Mbyte + 697 Kbyte + 36 byte
+Determining the support of the 18-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 18-itemsets is 3
+The memory need is: 25 Mbyte + 697 Kbyte + 36 byte
+
+Genarating 19-itemset candidates!
+The memory need is: 25 Mbyte + 697 Kbyte + 36 byte
+
+Mining is done!
+
+********************************************************************
+***                                                              ***
+***             Trie/Trie-hash based APRIORI algorithm           ***
+***                       version: 1.4.03                        ***
+***                                                              ***
+***       Implemented by: Ferenc Bodon (bodon@mit.bme.hu)        ***
+***                                                              ***
+********************************************************************
+
+
+                Finding frequent itemsets...
+
+Number of frequent 0-itemsets is 1
+
+Determining the support of the 1-itemset candidates!
+Deleting infrequent items!
+Number of frequent 1-itemsets is 39
+The memory need is: 9 Kbyte + 306 byte
+
+Genarating 2-itemset candidates!
+The memory need is: 15 Kbyte + 402 byte
+Determining the support of the 2-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 2-itemsets is 610
+The memory need is: 14 Kbyte + 658 byte
+
+Genarating 3-itemset candidates!
+The memory need is: 54 Kbyte + 500 byte
+Determining the support of the 3-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 3-itemsets is 5701
+The memory need is: 54 Kbyte + 500 byte
+
+Genarating 4-itemset candidates!
+The memory need is: 411 Kbyte + 864 byte
+Determining the support of the 4-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 4-itemsets is 34080
+The memory need is: 411 Kbyte + 864 byte
+
+Genarating 5-itemset candidates!
+The memory need is: 1 Mbyte + 657 Kbyte + 640 byte
+Determining the support of the 5-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 5-itemsets is 138306
+The memory need is: 1 Mbyte + 657 Kbyte + 640 byte
+
+Genarating 6-itemset candidates!
+The memory need is: 6 Mbyte + 287 Kbyte + 928 byte
+Determining the support of the 6-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 6-itemsets is 400457
+The memory need is: 6 Mbyte + 287 Kbyte + 928 byte
+
+Genarating 7-itemset candidates!
+The memory need is: 13 Mbyte + 126 Kbyte + 318 byte
+Determining the support of the 7-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 7-itemsets is 877898
+The memory need is: 13 Mbyte + 126 Kbyte + 318 byte
+
+Genarating 8-itemset candidates!
+The memory need is: 26 Mbyte + 362 Kbyte + 936 byte
+Determining the support of the 8-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 8-itemsets is 1548429
+The memory need is: 26 Mbyte + 362 Kbyte + 936 byte
+
+Genarating 9-itemset candidates!
+The memory need is: 51 Mbyte + 251 Kbyte + 70 byte
+Determining the support of the 9-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 9-itemsets is 2305272
+The memory need is: 51 Mbyte + 251 Kbyte + 70 byte
+
+Genarating 10-itemset candidates!
+The memory need is: 56 Mbyte + 932 Kbyte + 146 byte
+Determining the support of the 10-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 10-itemsets is 2958670
+The memory need is: 56 Mbyte + 932 Kbyte + 146 byte
+
+Genarating 11-itemset candidates!
+The memory need is: 104 Mbyte + 65 Kbyte + 960 byte
+Determining the support of the 11-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 11-itemsets is 3257918
+The memory need is: 104 Mbyte + 65 Kbyte + 960 byte
+
+Genarating 12-itemset candidates!
+The memory need is: 109 Mbyte + 868 Kbyte + 80 byte
+Determining the support of the 12-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 12-itemsets is 3026825
+The memory need is: 109 Mbyte + 868 Kbyte + 80 byte
+
+Genarating 13-itemset candidates!
+The memory need is: 178 Mbyte + 307 Kbyte + 180 byte
+Determining the support of the 13-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 13-itemsets is 2331941
+The memory need is: 178 Mbyte + 307 Kbyte + 180 byte
+
+Genarating 14-itemset candidates!
+The memory need is: 181 Mbyte + 105 Kbyte + 70 byte
+Determining the support of the 14-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 14-itemsets is 1468616
+The memory need is: 181 Mbyte + 105 Kbyte + 70 byte
+
+Genarating 15-itemset candidates!
+The memory need is: 200 Mbyte + 383 Kbyte + 998 byte
+Determining the support of the 15-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 15-itemsets is 746766
+The memory need is: 200 Mbyte + 383 Kbyte + 998 byte
+
+Genarating 16-itemset candidates!
+The memory need is: 200 Mbyte + 975 Kbyte + 616 byte
+Determining the support of the 16-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 16-itemsets is 302887
+The memory need is: 200 Mbyte + 975 Kbyte + 616 byte
+
+Genarating 17-itemset candidates!
+The memory need is: 201 Mbyte + 140 Kbyte + 432 byte
+Determining the support of the 17-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 17-itemsets is 96676
+The memory need is: 201 Mbyte + 140 Kbyte + 432 byte
+
+Genarating 18-itemset candidates!
+The memory need is: 201 Mbyte + 187 Kbyte + 4 byte
+Determining the support of the 18-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 18-itemsets is 23850
+The memory need is: 201 Mbyte + 187 Kbyte + 4 byte
+
+Genarating 19-itemset candidates!
+The memory need is: 201 Mbyte + 195 Kbyte + 646 byte
+Determining the support of the 19-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 19-itemsets is 4417
+The memory need is: 201 Mbyte + 195 Kbyte + 646 byte
+
+Genarating 20-itemset candidates!
+The memory need is: 201 Mbyte + 196 Kbyte + 786 byte
+Determining the support of the 20-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 20-itemsets is 582
+The memory need is: 201 Mbyte + 196 Kbyte + 786 byte
+
+Genarating 21-itemset candidates!
+The memory need is: 201 Mbyte + 196 Kbyte + 884 byte
+Determining the support of the 21-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 21-itemsets is 49
+The memory need is: 201 Mbyte + 196 Kbyte + 884 byte
+
+Genarating 22-itemset candidates!
+The memory need is: 201 Mbyte + 196 Kbyte + 888 byte
+Determining the support of the 22-itemset candidates!
+Deleting infrequent itemsets!
+Number of frequent 22-itemsets is 2
+The memory need is: 201 Mbyte + 196 Kbyte + 888 byte
+
+Genarating 23-itemset candidates!
+The memory need is: 201 Mbyte + 196 Kbyte + 888 byte
+
+Mining is done!

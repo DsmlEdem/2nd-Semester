@@ -1,0 +1,55 @@
+This directory contains tools to make conversion on datafiles to be in proper format for the apriori implementation made by Ferenc Bodon.
+
+The input file of apriori has to be in market-basket format.
+In a market-basket file each basket (transaction) is repseneted by a line of the file.
+Each line contains items that have to be integer values.
+Items are separated by a nonnumeric character (comma, white space, colon, etc.).
+An example for this kind of file:
+
+2 5 12
+1 4 3
+4 5
+Note, that items in a line do not have to be ordered!
+
+
+However, most database system stores the data in relational database.
+Relational databases have constant number of columns, so the database above would be stored like this:
+
+1,2
+1,5
+1,12
+2,1
+2,4
+2,3
+3,4
+4,5
+
+What is more! In most cases the item are not represented by integers but stored as string.
+
+1,butter
+1,bread
+1,salt
+2,curd
+2,milk
+2,sugar
+3,milk
+4,bread
+
+So we have to solve 3 problems:
+	1, We have to code items to integer values.
+	2, We have to convert relational database to market-basket format.
+	3, The output of apriori has to be decoced (integers to strings)
+
+
+Coding item is solved by the code_basket batch file, converting to market-basket model by the convert_basket.
+The program decode_item decodes the items. Obviously code_basket will generate a code table file that is used by decode_item.
+The 4 steps are included in the run_me batch file. Thus, if you have a text file of relational database style, that contains item as string, just evoke the run_me program. It needs 4 parameters:
+	- the input file,
+	- the file the output should write to
+	- support threshold
+	- confidence threshold
+
+To try how it works type "./run_me example_input.txt output 0.2 0.2".
+Have fun!
+
+			Ferenc Bodon
