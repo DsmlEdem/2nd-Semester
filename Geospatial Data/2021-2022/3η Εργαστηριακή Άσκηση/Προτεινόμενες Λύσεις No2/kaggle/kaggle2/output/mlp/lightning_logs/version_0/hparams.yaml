@@ -1,0 +1,5 @@
+dim_in: 176
+lr: 0.001
+num_classes: 14
+p_dropout: 0.2
+weight_decay: 1.0e-05

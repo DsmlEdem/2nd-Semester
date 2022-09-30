@@ -1,0 +1,3 @@
+channels_in: 176
+lr: 0.001
+n_classes: 14

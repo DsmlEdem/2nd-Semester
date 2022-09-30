@@ -1,0 +1,5 @@
+dim_in: 176
+dim_out: 14
+lr: 0.001
+p_dropout: 0.2
+weight_decay: 1.0e-05

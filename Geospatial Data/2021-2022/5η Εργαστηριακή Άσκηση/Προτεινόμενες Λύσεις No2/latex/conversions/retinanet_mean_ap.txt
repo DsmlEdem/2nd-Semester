@@ -1,0 +1,28 @@
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃          Test metric           ┃          DataLoader 0          ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│            test_map            │       0.8972699642181396       │
+│          test_map_50           │       0.9830342531204224       │
+│          test_map_75           │       0.9830342531204224       │
+│     test_map_class_battery     │       0.8732679486274719       │
+│     test_map_class_candle      │              -1.0              │
+│      test_map_class_dice       │       0.9289644956588745       │
+│   test_map_class_highlighter   │              -1.0              │
+│      test_map_class_spoon      │              -1.0              │
+│     test_map_class_toycar      │       0.8895776271820068       │
+│         test_map_large         │       0.9026299715042114       │
+│        test_map_medium         │       0.9153081774711609       │
+│         test_map_small         │              -1.0              │
+│           test_mar_1           │       0.6753621697425842       │
+│          test_mar_10           │       0.922366738319397        │
+│          test_mar_100          │       0.922366738319397        │
+│   test_mar_100_class_battery   │       0.9035714864730835       │
+│   test_mar_100_class_candle    │              -1.0              │
+│    test_mar_100_class_dice     │       0.9451612234115601       │
+│ test_mar_100_class_highlighter │              -1.0              │
+│    test_mar_100_class_spoon    │              -1.0              │
+│   test_mar_100_class_toycar    │       0.9183673858642578       │
+│         test_mar_large         │       0.924058735370636        │
+│        test_mar_medium         │       0.9307471513748169       │
+│         test_mar_small         │              -1.0              │
+└────────────────────────────────┴────────────────────────────────┘

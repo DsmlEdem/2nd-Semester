@@ -1,0 +1,128 @@
+[{"stream_name":"stdout","time":13.124423977,"data":"Processing /kaggle/input/lab3-whl/lab3-0.0.1-py3-none-any.whl\r\n"}
+,{"stream_name":"stdout","time":13.12448571,"data":"Requirement already satisfied: pytorch-lightning in /opt/conda/lib/python3.7/site-packages (from lab3==0.0.1) (1.6.4)\r\n"}
+,{"stream_name":"stdout","time":13.175301517,"data":"Requirement already satisfied: rasterio in /opt/conda/lib/python3.7/site-packages (from lab3==0.0.1) (1.2.10)\r\n"}
+,{"stream_name":"stdout","time":13.175337536,"data":"Requirement already satisfied: torchvision in /opt/conda/lib/python3.7/site-packages (from lab3==0.0.1) (0.12.0)\r\n"}
+,{"stream_name":"stdout","time":13.175345533,"data":"Requirement already satisfied: torchmetrics in /opt/conda/lib/python3.7/site-packages (from lab3==0.0.1) (0.9.2)\r\n"}
+,{"stream_name":"stdout","time":13.175351418,"data":"Requirement already satisfied: numpy in /opt/conda/lib/python3.7/site-packages (from lab3==0.0.1) (1.21.6)\r\n"}
+,{"stream_name":"stdout","time":13.175357026,"data":"Requirement already satisfied: scikit-learn in /opt/conda/lib/python3.7/site-packages (from lab3==0.0.1) (1.0.2)\r\n"}
+,{"stream_name":"stdout","time":13.175362294,"data":"Requirement already satisfied: torch in /opt/conda/lib/python3.7/site-packages (from lab3==0.0.1) (1.11.0)\r\n"}
+,{"stream_name":"stdout","time":13.175367691,"data":"Requirement already satisfied: matplotlib in /opt/conda/lib/python3.7/site-packages (from lab3==0.0.1) (3.5.2)\r\n"}
+,{"stream_name":"stdout","time":13.175372981,"data":"Requirement already satisfied: fonttools\u003e=4.22.0 in /opt/conda/lib/python3.7/site-packages (from matplotlib-\u003elab3==0.0.1) (4.33.3)\r\n"}
+,{"stream_name":"stdout","time":13.175378896,"data":"Requirement already satisfied: pyparsing\u003e=2.2.1 in /opt/conda/lib/python3.7/site-packages (from matplotlib-\u003elab3==0.0.1) (3.0.9)\r\n"}
+,{"stream_name":"stdout","time":13.175384709,"data":"Requirement already satisfied: kiwisolver\u003e=1.0.1 in /opt/conda/lib/python3.7/site-packages (from matplotlib-\u003elab3==0.0.1) (1.4.2)\r\n"}
+,{"stream_name":"stdout","time":13.175390249,"data":"Requirement already satisfied: cycler\u003e=0.10 in /opt/conda/lib/python3.7/site-packages (from matplotlib-\u003elab3==0.0.1) (0.11.0)\r\n"}
+,{"stream_name":"stdout","time":13.175395706,"data":"Requirement already satisfied: pillow\u003e=6.2.0 in /opt/conda/lib/python3.7/site-packages (from matplotlib-\u003elab3==0.0.1) (9.1.1)\r\n"}
+,{"stream_name":"stdout","time":13.175401226,"data":"Requirement already satisfied: python-dateutil\u003e=2.7 in /opt/conda/lib/python3.7/site-packages (from matplotlib-\u003elab3==0.0.1) (2.8.2)\r\n"}
+,{"stream_name":"stdout","time":13.175406626000001,"data":"Requirement already satisfied: packaging\u003e=20.0 in /opt/conda/lib/python3.7/site-packages (from matplotlib-\u003elab3==0.0.1) (21.3)\r\n"}
+,{"stream_name":"stdout","time":13.327436958,"data":"Requirement already satisfied: protobuf\u003c=3.20.1 in /opt/conda/lib/python3.7/site-packages (from pytorch-lightning-\u003elab3==0.0.1) (3.19.4)\r\n"}
+,{"stream_name":"stdout","time":13.327476542,"data":"Requirement already satisfied: PyYAML\u003e=5.4 in /opt/conda/lib/python3.7/site-packages (from pytorch-lightning-\u003elab3==0.0.1) (6.0)\r\n"}
+,{"stream_name":"stdout","time":13.327484584,"data":"Requirement already satisfied: pyDeprecate\u003e=0.3.1 in /opt/conda/lib/python3.7/site-packages (from pytorch-lightning-\u003elab3==0.0.1) (0.3.2)\r\n"}
+,{"stream_name":"stdout","time":13.327490725,"data":"Requirement already satisfied: tqdm\u003e=4.57.0 in /opt/conda/lib/python3.7/site-packages (from pytorch-lightning-\u003elab3==0.0.1) (4.64.0)\r\n"}
+,{"stream_name":"stdout","time":13.327496462,"data":"Requirement already satisfied: tensorboard\u003e=2.2.0 in /opt/conda/lib/python3.7/site-packages (from pytorch-lightning-\u003elab3==0.0.1) (2.6.0)\r\n"}
+,{"stream_name":"stdout","time":13.327512452,"data":"Requirement already satisfied: fsspec[http]!=2021.06.0,\u003e=2021.05.0 in /opt/conda/lib/python3.7/site-packages (from pytorch-lightning-\u003elab3==0.0.1) (2022.5.0)\r\n"}
+,{"stream_name":"stdout","time":13.327518398,"data":"Requirement already satisfied: typing-extensions\u003e=4.0.0 in /opt/conda/lib/python3.7/site-packages (from pytorch-lightning-\u003elab3==0.0.1) (4.1.1)\r\n"}
+,{"stream_name":"stdout","time":13.480594499,"data":"Requirement already satisfied: setuptools in /opt/conda/lib/python3.7/site-packages (from rasterio-\u003elab3==0.0.1) (59.8.0)\r\n"}
+,{"stream_name":"stdout","time":13.480629536,"data":"Requirement already satisfied: attrs in /opt/conda/lib/python3.7/site-packages (from rasterio-\u003elab3==0.0.1) (21.4.0)\r\n"}
+,{"stream_name":"stdout","time":13.48063796,"data":"Requirement already satisfied: affine in /opt/conda/lib/python3.7/site-packages (from rasterio-\u003elab3==0.0.1) (2.3.1)\r\n"}
+,{"stream_name":"stdout","time":13.480649432,"data":"Requirement already satisfied: certifi in /opt/conda/lib/python3.7/site-packages (from rasterio-\u003elab3==0.0.1) (2022.6.15)\r\n"}
+,{"stream_name":"stdout","time":13.480660932,"data":"Requirement already satisfied: cligj\u003e=0.5 in /opt/conda/lib/python3.7/site-packages (from rasterio-\u003elab3==0.0.1) (0.7.2)\r\n"}
+,{"stream_name":"stdout","time":13.480667376,"data":"Requirement already satisfied: click-plugins in /opt/conda/lib/python3.7/site-packages (from rasterio-\u003elab3==0.0.1) (1.1.1)\r\n"}
+,{"stream_name":"stdout","time":13.480673242,"data":"Requirement already satisfied: click\u003e=4.0 in /opt/conda/lib/python3.7/site-packages (from rasterio-\u003elab3==0.0.1) (8.0.4)\r\n"}
+,{"stream_name":"stdout","time":13.48067937,"data":"Requirement already satisfied: snuggs\u003e=1.4.1 in /opt/conda/lib/python3.7/site-packages (from rasterio-\u003elab3==0.0.1) (1.4.7)\r\n"}
+,{"stream_name":"stdout","time":13.531102066999999,"data":"Requirement already satisfied: joblib\u003e=0.11 in /opt/conda/lib/python3.7/site-packages (from scikit-learn-\u003elab3==0.0.1) (1.1.0)\r\n"}
+,{"stream_name":"stdout","time":13.531140188,"data":"Requirement already satisfied: threadpoolctl\u003e=2.0.0 in /opt/conda/lib/python3.7/site-packages (from scikit-learn-\u003elab3==0.0.1) (3.1.0)\r\n"}
+,{"stream_name":"stdout","time":13.531148137,"data":"Requirement already satisfied: scipy\u003e=1.1.0 in /opt/conda/lib/python3.7/site-packages (from scikit-learn-\u003elab3==0.0.1) (1.7.3)\r\n"}
+,{"stream_name":"stdout","time":13.583957947,"data":"Requirement already satisfied: requests in /opt/conda/lib/python3.7/site-packages (from torchvision-\u003elab3==0.0.1) (2.27.1)\r\n"}
+,{"stream_name":"stdout","time":13.583992092999999,"data":"Requirement already satisfied: importlib-metadata in /opt/conda/lib/python3.7/site-packages (from click\u003e=4.0-\u003erasterio-\u003elab3==0.0.1) (4.12.0)\r\n"}
+,{"stream_name":"stdout","time":13.735623139,"data":"Requirement already satisfied: aiohttp in /opt/conda/lib/python3.7/site-packages (from fsspec[http]!=2021.06.0,\u003e=2021.05.0-\u003epytorch-lightning-\u003elab3==0.0.1) (3.8.1)\r\n"}
+,{"stream_name":"stdout","time":13.838486871,"data":"Requirement already satisfied: six\u003e=1.5 in /opt/conda/lib/python3.7/site-packages (from python-dateutil\u003e=2.7-\u003ematplotlib-\u003elab3==0.0.1) (1.16.0)\r\n"}
+,{"stream_name":"stdout","time":13.891649012,"data":"Requirement already satisfied: grpcio\u003e=1.24.3 in /opt/conda/lib/python3.7/site-packages (from tensorboard\u003e=2.2.0-\u003epytorch-lightning-\u003elab3==0.0.1) (1.43.0)\r\n"}
+,{"stream_name":"stdout","time":13.89169057,"data":"Requirement already satisfied: wheel\u003e=0.26 in /opt/conda/lib/python3.7/site-packages (from tensorboard\u003e=2.2.0-\u003epytorch-lightning-\u003elab3==0.0.1) (0.37.1)\r\n"}
+,{"stream_name":"stdout","time":13.891711558,"data":"Requirement already satisfied: markdown\u003e=2.6.8 in /opt/conda/lib/python3.7/site-packages (from tensorboard\u003e=2.2.0-\u003epytorch-lightning-\u003elab3==0.0.1) (3.3.7)\r\n"}
+,{"stream_name":"stdout","time":13.891718061,"data":"Requirement already satisfied: tensorboard-data-server\u003c0.7.0,\u003e=0.6.0 in /opt/conda/lib/python3.7/site-packages (from tensorboard\u003e=2.2.0-\u003epytorch-lightning-\u003elab3==0.0.1) (0.6.1)\r\n"}
+,{"stream_name":"stdout","time":13.891724225,"data":"Requirement already satisfied: tensorboard-plugin-wit\u003e=1.6.0 in /opt/conda/lib/python3.7/site-packages (from tensorboard\u003e=2.2.0-\u003epytorch-lightning-\u003elab3==0.0.1) (1.8.1)\r\n"}
+,{"stream_name":"stdout","time":13.891730057,"data":"Requirement already satisfied: google-auth-oauthlib\u003c0.5,\u003e=0.4.1 in /opt/conda/lib/python3.7/site-packages (from tensorboard\u003e=2.2.0-\u003epytorch-lightning-\u003elab3==0.0.1) (0.4.6)\r\n"}
+,{"stream_name":"stdout","time":13.891735513,"data":"Requirement already satisfied: werkzeug\u003e=0.11.15 in /opt/conda/lib/python3.7/site-packages (from tensorboard\u003e=2.2.0-\u003epytorch-lightning-\u003elab3==0.0.1) (2.1.2)\r\n"}
+,{"stream_name":"stdout","time":13.89174074,"data":"Requirement already satisfied: absl-py\u003e=0.4 in /opt/conda/lib/python3.7/site-packages (from tensorboard\u003e=2.2.0-\u003epytorch-lightning-\u003elab3==0.0.1) (1.0.0)\r\n"}
+,{"stream_name":"stdout","time":13.891746213,"data":"Requirement already satisfied: google-auth\u003c2,\u003e=1.6.3 in /opt/conda/lib/python3.7/site-packages (from tensorboard\u003e=2.2.0-\u003epytorch-lightning-\u003elab3==0.0.1) (1.35.0)\r\n"}
+,{"stream_name":"stdout","time":13.94511821,"data":"Requirement already satisfied: urllib3\u003c1.27,\u003e=1.21.1 in /opt/conda/lib/python3.7/site-packages (from requests-\u003etorchvision-\u003elab3==0.0.1) (1.26.9)\r\n"}
+,{"stream_name":"stdout","time":13.94514349,"data":"Requirement already satisfied: charset-normalizer~=2.0.0 in /opt/conda/lib/python3.7/site-packages (from requests-\u003etorchvision-\u003elab3==0.0.1) (2.0.12)\r\n"}
+,{"stream_name":"stdout","time":13.945164503,"data":"Requirement already satisfied: idna\u003c4,\u003e=2.5 in /opt/conda/lib/python3.7/site-packages (from requests-\u003etorchvision-\u003elab3==0.0.1) (3.3)\r\n"}
+,{"stream_name":"stdout","time":14.098503943,"data":"Requirement already satisfied: cachetools\u003c5.0,\u003e=2.0.0 in /opt/conda/lib/python3.7/site-packages (from google-auth\u003c2,\u003e=1.6.3-\u003etensorboard\u003e=2.2.0-\u003epytorch-lightning-\u003elab3==0.0.1) (4.2.4)\r\n"}
+,{"stream_name":"stdout","time":14.098548983,"data":"Requirement already satisfied: rsa\u003c5,\u003e=3.1.4 in /opt/conda/lib/python3.7/site-packages (from google-auth\u003c2,\u003e=1.6.3-\u003etensorboard\u003e=2.2.0-\u003epytorch-lightning-\u003elab3==0.0.1) (4.8)\r\n"}
+,{"stream_name":"stdout","time":14.152228704,"data":"Requirement already satisfied: pyasn1-modules\u003e=0.2.1 in /opt/conda/lib/python3.7/site-packages (from google-auth\u003c2,\u003e=1.6.3-\u003etensorboard\u003e=2.2.0-\u003epytorch-lightning-\u003elab3==0.0.1) (0.2.7)\r\n"}
+,{"stream_name":"stdout","time":14.152256355,"data":"Requirement already satisfied: requests-oauthlib\u003e=0.7.0 in /opt/conda/lib/python3.7/site-packages (from google-auth-oauthlib\u003c0.5,\u003e=0.4.1-\u003etensorboard\u003e=2.2.0-\u003epytorch-lightning-\u003elab3==0.0.1) (1.3.1)\r\n"}
+,{"stream_name":"stdout","time":14.205599404,"data":"Requirement already satisfied: zipp\u003e=0.5 in /opt/conda/lib/python3.7/site-packages (from importlib-metadata-\u003eclick\u003e=4.0-\u003erasterio-\u003elab3==0.0.1) (3.8.0)\r\n"}
+,{"stream_name":"stdout","time":14.256812154,"data":"Requirement already satisfied: frozenlist\u003e=1.1.1 in /opt/conda/lib/python3.7/site-packages (from aiohttp-\u003efsspec[http]!=2021.06.0,\u003e=2021.05.0-\u003epytorch-lightning-\u003elab3==0.0.1) (1.3.0)\r\n"}
+,{"stream_name":"stdout","time":14.256862328,"data":"Requirement already satisfied: aiosignal\u003e=1.1.2 in /opt/conda/lib/python3.7/site-packages (from aiohttp-\u003efsspec[http]!=2021.06.0,\u003e=2021.05.0-\u003epytorch-lightning-\u003elab3==0.0.1) (1.2.0)\r\n"}
+,{"stream_name":"stdout","time":14.307679562,"data":"Requirement already satisfied: asynctest==0.13.0 in /opt/conda/lib/python3.7/site-packages (from aiohttp-\u003efsspec[http]!=2021.06.0,\u003e=2021.05.0-\u003epytorch-lightning-\u003elab3==0.0.1) (0.13.0)\r\n"}
+,{"stream_name":"stdout","time":14.307702694,"data":"Requirement already satisfied: async-timeout\u003c5.0,\u003e=4.0.0a3 in /opt/conda/lib/python3.7/site-packages (from aiohttp-\u003efsspec[http]!=2021.06.0,\u003e=2021.05.0-\u003epytorch-lightning-\u003elab3==0.0.1) (4.0.2)\r\n"}
+,{"stream_name":"stdout","time":14.307710869,"data":"Requirement already satisfied: multidict\u003c7.0,\u003e=4.5 in /opt/conda/lib/python3.7/site-packages (from aiohttp-\u003efsspec[http]!=2021.06.0,\u003e=2021.05.0-\u003epytorch-lightning-\u003elab3==0.0.1) (6.0.2)\r\n"}
+,{"stream_name":"stdout","time":14.307727173,"data":"Requirement already satisfied: yarl\u003c2.0,\u003e=1.0 in /opt/conda/lib/python3.7/site-packages (from aiohttp-\u003efsspec[http]!=2021.06.0,\u003e=2021.05.0-\u003epytorch-lightning-\u003elab3==0.0.1) (1.7.2)\r\n"}
+,{"stream_name":"stdout","time":14.358972194,"data":"Requirement already satisfied: pyasn1\u003c0.5.0,\u003e=0.4.6 in /opt/conda/lib/python3.7/site-packages (from pyasn1-modules\u003e=0.2.1-\u003egoogle-auth\u003c2,\u003e=1.6.3-\u003etensorboard\u003e=2.2.0-\u003epytorch-lightning-\u003elab3==0.0.1) (0.4.8)\r\n"}
+,{"stream_name":"stdout","time":14.358997513,"data":"Requirement already satisfied: oauthlib\u003e=3.0.0 in /opt/conda/lib/python3.7/site-packages (from requests-oauthlib\u003e=0.7.0-\u003egoogle-auth-oauthlib\u003c0.5,\u003e=0.4.1-\u003etensorboard\u003e=2.2.0-\u003epytorch-lightning-\u003elab3==0.0.1) (3.2.0)\r\n"}
+,{"stream_name":"stdout","time":21.503204631,"data":"Installing collected packages: lab3\r\n"}
+,{"stream_name":"stdout","time":21.814209272,"data":"Successfully installed lab3-0.0.1\r\n"}
+,{"stream_name":"stdout","time":21.814279862,"data":"\u001b[33mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv\u001b[0m\u001b[33m\r\n"}
+,{"stream_name":"stderr","time":27.954959534,"data":"/opt/conda/lib/python3.7/site-packages/rasterio/__init__.py:220: NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix be returned.\n"}
+,{"stream_name":"stderr","time":27.955007777,"data":"  s = DatasetReader(path, driver=driver, sharing=sharing, **kwargs)\n"}
+,{"stream_name":"stdout","time":32.229767334,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":32.229818644,"data":"Training Random Forest and SVM...\n"}
+,{"stream_name":"stdout","time":101.930049307,"data":"\n"}
+,{"stream_name":"stdout","time":101.930088593,"data":"Training MLP...\n"}
+,{"stream_name":"stderr","time":111.163989832,"data":"/opt/conda/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py:1937: PossibleUserWarning: The number of training batches (46) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.\n"}
+,{"stream_name":"stderr","time":111.164072657,"data":"  category=PossibleUserWarning,\n"}
+,{"stream_name":"stdout","time":347.583846954,"data":"\n"}
+,{"stream_name":"stdout","time":347.583880418,"data":"Training CNN...\n"}
+,{"stream_name":"stdout","time":4938.955235867,"data":"\n"}
+,{"stream_name":"stdout","time":4938.955279951,"data":"Training ResNet...\n"}
+,{"stream_name":"stderr","time":4939.143909317,"data":"Downloading: \"https://download.pytorch.org/models/resnet18-f37072fd.pth\" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth\n"}
+,{"stream_name":"stdout","time":7291.881274527,"data":"\n"}
+,{"stream_name":"stdout","time":7291.881972136,"data":"Training U-Net...\n"}
+,{"stream_name":"stderr","time":7292.633818086,"data":"/opt/conda/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py:1937: PossibleUserWarning: The number of training batches (7) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.\n"}
+,{"stream_name":"stderr","time":7292.633845699,"data":"  category=PossibleUserWarning,\n"}
+,{"stream_name":"stdout","time":8109.458053195,"data":"\n"}
+,{"stream_name":"stdout","time":8109.458084287,"data":"Training CNN on all the data\n"}
+,{"stream_name":"stderr","time":8109.45948,"data":"/opt/conda/lib/python3.7/site-packages/pytorch_lightning/trainer/configuration_validator.py:133: UserWarning: You defined a `validation_step` but have no `val_dataloader`. Skipping val loop.\n"}
+,{"stream_name":"stderr","time":8109.45950727,"data":"  rank_zero_warn(\"You defined a `validation_step` but have no `val_dataloader`. Skipping val loop.\")\n"}
+,{"stream_name":"stderr","time":8138.561702321,"data":"/opt/conda/lib/python3.7/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:378: UserWarning: `ModelCheckpoint(monitor='loss/val')` could not find the monitored key in the returned metrics: ['loss/train', 'accuracy/train', 'epoch', 'step']. HINT: Did you call `log('loss/val', value)` in the `LightningModule`?\n"}
+,{"stream_name":"stderr","time":8138.561735782,"data":"  warning_cache.warn(m)\n"}
+,{"stream_name":"stdout","time":19994.938698087,"data":"\n"}
+,{"stream_name":"stdout","time":19994.938727912,"data":"Training U-Net on all the data + overlap\n"}
+,{"stream_name":"stdout","time":27244.099109836,"data":"\n"}
+,{"stream_name":"stdout","time":27244.099314975,"data":"Predicting unlabelled data with CNN\n"}
+,{"stream_name":"stderr","time":27244.243553321,"data":"/opt/conda/lib/python3.7/site-packages/rasterio/__init__.py:220: NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix be returned.\n"}
+,{"stream_name":"stderr","time":27244.243602828,"data":"  s = DatasetReader(path, driver=driver, sharing=sharing, **kwargs)\n"}
+,{"stream_name":"stderr","time":27247.060712774,"data":"/opt/conda/lib/python3.7/site-packages/pytorch_lightning/loops/utilities.py:94: PossibleUserWarning: `max_epochs` was not set. Setting it to 1000 epochs. To train without an epoch limit, set `max_epochs=-1`.\n"}
+,{"stream_name":"stderr","time":27247.060811464,"data":"  category=PossibleUserWarning,\n"}
+,{"stream_name":"stderr","time":27385.209422899,"data":"/opt/conda/lib/python3.7/site-packages/rasterio/__init__.py:236: NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix be returned.\n"}
+,{"stream_name":"stderr","time":27385.209470113,"data":"  **kwargs)\n"}
+,{"stream_name":"stdout","time":27599.426836477,"data":"\n"}
+,{"stream_name":"stdout","time":27599.42687639,"data":"Predicting unlabelled data with UNet\n"}
+,{"stream_name":"stderr","time":27649.88540238,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2755: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":27649.885450918,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":27649.885456901,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":27656.672383453,"data":"[NbConvertApp] Writing 15102242 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":27658.893163384,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2755: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":27658.893244021,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":27658.893250821,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":27664.432849617,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":27664.432972689,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.43355564,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.433884978,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.434127369,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.434365998,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.434575635,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.434810274,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.43502711,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.435269832,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.435493357,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.435715076,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.435932927,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.436319202,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.436679914,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.436985362,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.437373301,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.437713948,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":27664.43809246,"data":"[NbConvertApp] Writing 10280118 bytes to __results__.html\n"}
+]

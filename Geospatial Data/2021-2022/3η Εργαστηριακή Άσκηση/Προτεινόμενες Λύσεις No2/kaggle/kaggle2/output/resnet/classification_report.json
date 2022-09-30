@@ -1,0 +1,99 @@
+{
+    "Dense Urban Fabric": {
+        "precision": 0.979253112033195,
+        "recall": 0.959349593495935,
+        "f1-score": 0.9691991786447638,
+        "support": 246
+    },
+    "Mineral Extraction Sites": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 44
+    },
+    "Non Irrigated Arable Land": {
+        "precision": 0.9753086419753086,
+        "recall": 0.9634146341463414,
+        "f1-score": 0.9693251533742332,
+        "support": 164
+    },
+    "Fruit Trees": {
+        "precision": 0.7894736842105263,
+        "recall": 0.7894736842105263,
+        "f1-score": 0.7894736842105263,
+        "support": 19
+    },
+    "Olive Groves": {
+        "precision": 0.9193548387096774,
+        "recall": 0.95,
+        "f1-score": 0.9344262295081968,
+        "support": 480
+    },
+    "Broad-leaved Forest": {
+        "precision": 0.9285714285714286,
+        "recall": 0.7222222222222222,
+        "f1-score": 0.8125000000000001,
+        "support": 36
+    },
+    "Coniferous Forest": {
+        "precision": 0.9732142857142857,
+        "recall": 0.8934426229508197,
+        "f1-score": 0.9316239316239318,
+        "support": 122
+    },
+    "Mixed Forest": {
+        "precision": 0.9025974025974026,
+        "recall": 0.8910256410256411,
+        "f1-score": 0.8967741935483873,
+        "support": 156
+    },
+    "Dense Sclerophyllous Vegetation": {
+        "precision": 0.9523121387283237,
+        "recall": 0.962043795620438,
+        "f1-score": 0.9571532316630356,
+        "support": 1370
+    },
+    "Sparce Sclerophyllous Vegetation": {
+        "precision": 0.9698529411764706,
+        "recall": 0.9677182685253118,
+        "f1-score": 0.9687844289386707,
+        "support": 1363
+    },
+    "Sparce Vegetated Areas": {
+        "precision": 0.9938650306748467,
+        "recall": 0.9938650306748467,
+        "f1-score": 0.9938650306748467,
+        "support": 326
+    },
+    "Rocks and Sand": {
+        "precision": 0.9851851851851852,
+        "recall": 0.9925373134328358,
+        "f1-score": 0.9888475836431226,
+        "support": 134
+    },
+    "Water": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 445
+    },
+    "Coastal Water": {
+        "precision": 1.0,
+        "recall": 0.9919354838709677,
+        "f1-score": 0.9959514170040485,
+        "support": 124
+    },
+    "accuracy": 0.963412209186717,
+    "macro avg": {
+        "precision": 0.9549277635411894,
+        "recall": 0.9340734492982776,
+        "f1-score": 0.9434231473452689,
+        "support": 5029
+    },
+    "weighted avg": {
+        "precision": 0.9635504311417415,
+        "recall": 0.963412209186717,
+        "f1-score": 0.9633085032917152,
+        "support": 5029
+    }
+}

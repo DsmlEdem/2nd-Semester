@@ -1,0 +1,54 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/docker-existing-dockerfile
+{
+	"name": "Existing Dockerfile",
+
+	// Sets the run context to one level up instead of the .devcontainer folder.
+	"context": "..",
+
+	// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
+	"dockerFile": "../Dockerfile",
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [6006],  // default tensorboard port
+
+	// Uncomment the next line to run commands after the container is created - for example installing curl.
+	// "postCreateCommand": "apt-get update && apt-get install -y curl",
+
+	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
+	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
+
+	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
+	// "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
+
+	// Uncomment to connect as a non-root user if you've added one. See https://aka.ms/vscode-remote/containers/non-root.
+	// "remoteUser": "vscode"
+
+	// "workspaceFolder": "/workspace/mmdetection/",
+	"runArgs": [
+		"--gpus=all",
+		"--shm-size=8g",
+		"-v", "/home/konstantinos/projects/geospatial-labs/lab6/DOTA/:/workspace/mmdetection/data/DOTA/",
+		"-v", "/home/konstantinos/projects/geospatial-labs/lab6/mmr/split_ss_dota:/workspace/mmdetection/data/split_ss_dota",
+		"-v", "/home/konstantinos/projects/geospatial-labs/lab6/mmr/work_dirs/:/workspace/mmdetection/work_dirs/",
+		// https://github.com/microsoft/wslg/blob/main/samples/container/Containers.md
+		"-v", "/tmp/.X11-unix:/tmp/.X11-unix"
+	],
+	"containerEnv": {
+		"MMR": "/workspace/mmdetection",
+		// "DISPLAY": "${localEnv:DISPLAY}"
+		"DISPLAY": ":0"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"KevinRose.vsc-python-indent",
+				"christian-kohler.path-intellisense",
+				"DavidAnson.vscode-markdownlint",
+				"eamodio.gitlens",
+				"njpwerner.autodocstring"
+			]
+		}
+	}
+}
